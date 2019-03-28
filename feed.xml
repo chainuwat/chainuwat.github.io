@@ -3,12 +3,28 @@
     <title>Chainuwat</title>
     <link href="https://chainuwat.github.io/feed.xml" rel="self" />
     <link href="https://chainuwat.github.io" />
-    <updated>2019-03-28T13:37:09+07:00</updated>
+    <updated>2019-03-28T13:58:16+07:00</updated>
     <author>
         <name>Chainuwat Chuaykongtong</name>
     </author>
     <id>https://chainuwat.github.io</id>
 
+    <entry>
+        <title>เกี่ยวกับเรา</title>
+        <author>
+            <name>Chainuwat Chuaykongtong</name>
+        </author>
+        <link href="https://chainuwat.github.io/ekiiywkaberaa.html"/>
+        <id>https://chainuwat.github.io/ekiiywkaberaa.html</id>
+
+        <updated>2019-03-28T13:58:12+07:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <img class="post__image" src="https://chainuwat.github.io/media/posts/2/55557125_992815577592639_1092915434182672384_n.jpg" alt="" width="960" height="960">
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>ทดลอง</title>
         <author>

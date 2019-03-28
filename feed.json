@@ -5,10 +5,24 @@
     "home_page_url": "https://chainuwat.github.io",
     "feed_url": "https://chainuwat.github.io/feed.json",
     "user_comment": "",
+    "icon": "https://chainuwat.github.io/media/website/header-logo.png",
     "author": {
         "name": "Chainuwat Chuaykongtong"
     },
     "items": [
+        {
+            "id": "https://chainuwat.github.io/ekiiywkaberaa.html",
+            "url": "https://chainuwat.github.io/ekiiywkaberaa.html",
+            "title": "เกี่ยวกับเรา",
+            "content_html": "<img class=\"post__image\" src=\"https://chainuwat.github.io/media/posts/2/55557125_992815577592639_1092915434182672384_n.jpg\" alt=\"\" width=\"960\" height=\"960\">",
+            "author": {
+                "name": "Chainuwat Chuaykongtong"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-03-28T13:58:12+07:00",
+            "date_modified": "2019-03-28T13:58:12+07:00"
+        },
         {
             "id": "https://chainuwat.github.io/thdlng.html",
             "url": "https://chainuwat.github.io/thdlng.html",
