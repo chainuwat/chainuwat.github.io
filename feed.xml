@@ -3,7 +3,7 @@
     <title>Chainuwat</title>
     <link href="https://chainuwat.github.io/feed.xml" rel="self" />
     <link href="https://chainuwat.github.io" />
-    <updated>2019-03-29T13:53:26+07:00</updated>
+    <updated>2019-03-29T13:58:27+07:00</updated>
     <author>
         <name>Chainuwat Chuaykongtong</name>
     </author>
@@ -17,11 +17,11 @@
         <link href="https://chainuwat.github.io/thdlng.html"/>
         <id>https://chainuwat.github.io/thdlng.html</id>
 
-        <updated>2019-03-29T13:53:19+07:00</updated>
+        <updated>2019-03-29T13:57:39+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://chainuwat.github.io/media/posts/1/S__26787842.jpg" alt="" />
-                    สีน้ำ 
+                    สีน้ำ วาดเส้น
                 ]]>
             </summary>
         <content type="html">
@@ -47,7 +47,15 @@
 </div>
 <p class="align-center"> </p>
 <h2 id="mcetoc_1d7427e6q0" class="align-center">วาดเส้น</h2>
-<p class="align-center"> </p>
+<div class="gallery"   >
+<figure class="gallery__item"><a href="https://chainuwat.github.io/media/posts/1/gallery/21743211_1565259850184667_2116056403294181850_n-1.jpg" ><img src="https://chainuwat.github.io/media/posts/1/gallery/21743211_1565259850184667_2116056403294181850_n-1-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="https://chainuwat.github.io/media/posts/1/gallery/37396613_1901807349863247_2290687418245840896_n.jpg" ><img src="https://chainuwat.github.io/media/posts/1/gallery/37396613_1901807349863247_2290687418245840896_n-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="https://chainuwat.github.io/media/posts/1/gallery/21106518_685596171647916_5055423164129886056_n.jpg" ><img src="https://chainuwat.github.io/media/posts/1/gallery/21106518_685596171647916_5055423164129886056_n-thumbnail.jpg" alt="" width="768" height="539"></a></figure>
+<figure class="gallery__item"><a href="https://chainuwat.github.io/media/posts/1/gallery/21752004_1565259746851344_483087755984643661_n.jpg" ><img src="https://chainuwat.github.io/media/posts/1/gallery/21752004_1565259746851344_483087755984643661_n-thumbnail.jpg" alt="" width="768" height="494"></a></figure>
+<figure class="gallery__item"><a href="https://chainuwat.github.io/media/posts/1/gallery/21728273_1565259750184677_7866728007682834355_n.jpg" ><img src="https://chainuwat.github.io/media/posts/1/gallery/21728273_1565259750184677_7866728007682834355_n-thumbnail.jpg" alt="" width="768" height="512"></a></figure>
+<figure class="gallery__item"><a href="https://chainuwat.github.io/media/posts/1/gallery/21740526_1565259753518010_1998475020332447285_n.jpg" ><img src="https://chainuwat.github.io/media/posts/1/gallery/21740526_1565259753518010_1998475020332447285_n-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="https://chainuwat.github.io/media/posts/1/gallery/21740545_1565259900184662_5305361970658801033_n.jpg" ><img src="https://chainuwat.github.io/media/posts/1/gallery/21740545_1565259900184662_5305361970658801033_n-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
+</div>
             ]]>
         </content>
     </entry>
