@@ -3,12 +3,36 @@
     <title>CHAINUWAT</title>
     <link href="https://chainuwat.github.io/feed.xml" rel="self" />
     <link href="https://chainuwat.github.io" />
-    <updated>2019-08-13T14:51:07+07:00</updated>
+    <updated>2019-08-13T14:54:25+07:00</updated>
     <author>
         <name>Chainuwat Chuaykongtong</name>
     </author>
     <id>https://chainuwat.github.io</id>
 
+    <entry>
+        <title>ติดต่อ</title>
+        <author>
+            <name>Chainuwat Chuaykongtong</name>
+        </author>
+        <link href="https://chainuwat.github.io/tidt.html"/>
+        <id>https://chainuwat.github.io/tidt.html</id>
+
+        <updated>2019-08-13T14:54:08+07:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>บทเรียน</title>
+        <author>
+            <name>Chainuwat Chuaykongtong</name>
+        </author>
+        <link href="https://chainuwat.github.io/btheriiyn.html"/>
+        <id>https://chainuwat.github.io/btheriiyn.html</id>
+
+        <updated>2019-08-13T14:53:02+07:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
     <entry>
         <title>วิดีโอ</title>
         <author>

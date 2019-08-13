@@ -10,6 +10,30 @@
     },
     "items": [
         {
+            "id": "https://chainuwat.github.io/tidt.html",
+            "url": "https://chainuwat.github.io/tidt.html",
+            "title": "ติดต่อ",
+            "author": {
+                "name": "Chainuwat Chuaykongtong"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-08-13T14:54:08+07:00",
+            "date_modified": "2019-08-13T14:54:08+07:00"
+        },
+        {
+            "id": "https://chainuwat.github.io/btheriiyn.html",
+            "url": "https://chainuwat.github.io/btheriiyn.html",
+            "title": "บทเรียน",
+            "author": {
+                "name": "Chainuwat Chuaykongtong"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-08-13T14:53:02+07:00",
+            "date_modified": "2019-08-13T14:53:02+07:00"
+        },
+        {
             "id": "https://chainuwat.github.io/widiio.html",
             "url": "https://chainuwat.github.io/widiio.html",
             "title": "วิดีโอ",
