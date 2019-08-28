@@ -3,12 +3,37 @@
     <title>CHAINUWAT</title>
     <link href="https://chainuwat.github.io/feed.xml" rel="self" />
     <link href="https://chainuwat.github.io" />
-    <updated>2019-08-28T11:36:19+07:00</updated>
+    <updated>2019-08-28T13:54:25+07:00</updated>
     <author>
         <name>Chainuwat Chuaykongtong</name>
     </author>
     <id>https://chainuwat.github.io</id>
 
+    <entry>
+        <title>Sketches</title>
+        <author>
+            <name>Chainuwat Chuaykongtong</name>
+        </author>
+        <link href="https://chainuwat.github.io/sketches.html"/>
+        <id>https://chainuwat.github.io/sketches.html</id>
+
+        <updated>2019-08-28T13:53:20+07:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <div class="gallery"   >
+<figure class="gallery__item"><a href="https://chainuwat.github.io/media/posts/11/gallery/Krabi_seaside-21x29cm.jpg" ><img src="https://chainuwat.github.io/media/posts/11/gallery/Krabi_seaside-21x29cm-thumbnail.jpg" alt="" width="768" height="555"></a></figure>
+<figure class="gallery__item"><a href="https://chainuwat.github.io/media/posts/11/gallery/S__25354252.jpg" ><img src="https://chainuwat.github.io/media/posts/11/gallery/S__25354252-thumbnail.jpg" alt="" width="768" height="1067"></a></figure>
+<figure class="gallery__item"><a href="https://chainuwat.github.io/media/posts/11/gallery/S__31227913.jpg" ><img src="https://chainuwat.github.io/media/posts/11/gallery/S__31227913-thumbnail.jpg" alt="" width="768" height="557"></a></figure>
+<figure class="gallery__item"><a href="https://chainuwat.github.io/media/posts/11/gallery/S__31064071.jpg" ><img src="https://chainuwat.github.io/media/posts/11/gallery/S__31064071-thumbnail.jpg" alt="" width="768" height="571"></a></figure>
+<figure class="gallery__item"><a href="https://chainuwat.github.io/media/posts/11/gallery/S__31277058.jpg" ><img src="https://chainuwat.github.io/media/posts/11/gallery/S__31277058-thumbnail.jpg" alt="" width="768" height="563"></a></figure>
+<figure class="gallery__item"><a href="https://chainuwat.github.io/media/posts/11/gallery/S__26705924.jpg" ><img src="https://chainuwat.github.io/media/posts/11/gallery/S__26705924-thumbnail.jpg" alt="" width="768" height="560"></a></figure>
+<figure class="gallery__item"><a href="https://chainuwat.github.io/media/posts/11/gallery/S__26705925.jpg" ><img src="https://chainuwat.github.io/media/posts/11/gallery/S__26705925-thumbnail.jpg" alt="" width="768" height="1052"></a></figure>
+<figure class="gallery__item"><a href="https://chainuwat.github.io/media/posts/11/gallery/S__31703042.jpg" ><img src="https://chainuwat.github.io/media/posts/11/gallery/S__31703042-thumbnail.jpg" alt="" width="768" height="565"></a></figure>
+</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Artwork</title>
         <author>
@@ -150,26 +175,26 @@
         </content>
     </entry>
     <entry>
-        <title>ติดต่อ</title>
+        <title>Contact</title>
         <author>
             <name>Chainuwat Chuaykongtong</name>
         </author>
         <link href="https://chainuwat.github.io/tidt.html"/>
         <id>https://chainuwat.github.io/tidt.html</id>
 
-        <updated>2019-08-13T14:54:08+07:00</updated>
+        <updated>2019-08-28T11:38:56+07:00</updated>
             <summary></summary>
         <content></content>
     </entry>
     <entry>
-        <title>บทเรียน</title>
+        <title>Tutorials</title>
         <author>
             <name>Chainuwat Chuaykongtong</name>
         </author>
         <link href="https://chainuwat.github.io/btheriiyn.html"/>
         <id>https://chainuwat.github.io/btheriiyn.html</id>
 
-        <updated>2019-08-13T14:53:02+07:00</updated>
+        <updated>2019-08-28T11:39:10+07:00</updated>
             <summary></summary>
         <content></content>
     </entry>
