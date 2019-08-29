@@ -11,6 +11,20 @@
     },
     "items": [
         {
+            "id": "https://chainuwat.github.io/workshops.html",
+            "url": "https://chainuwat.github.io/workshops.html",
+            "title": "Workshops",
+            "summary": "Coming soon!!!",
+            "content_html": "Coming soon!!!",
+            "author": {
+                "name": "Chainuwat Chuaykongtong"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-08-29T15:28:36+07:00",
+            "date_modified": "2019-08-29T15:28:36+07:00"
+        },
+        {
             "id": "https://chainuwat.github.io/sketches.html",
             "url": "https://chainuwat.github.io/sketches.html",
             "title": "Sketches",
