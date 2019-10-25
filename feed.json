@@ -13,7 +13,8 @@
         {
             "id": "https://chainuwat.github.io/abc-style-clinic-x-yellong-landing-page.html",
             "url": "https://chainuwat.github.io/abc-style-clinic-x-yellong-landing-page.html",
-            "title": "ABC Style Clinic X Yellong - Landing page",
+            "title": "Fan meeting with Yellong - Landing page",
+            "content_html": "<img class=\"post__image--center\" src=\"https://chainuwat.github.io/media/posts/13/abc_x_yellong_mockup-2.jpg\" alt=\"\" width=\"1920\" height=\"11781\">",
             "image": "https://chainuwat.github.io/media/posts/13/abc_x_yellong_mockup.jpg",
             "author": {
                 "name": "Chainuwat Chuaykongtong"
@@ -21,7 +22,7 @@
             "tags": [
             ],
             "date_published": "2019-10-25T15:15:36+07:00",
-            "date_modified": "2019-10-25T15:15:36+07:00"
+            "date_modified": "2019-10-25T15:18:46+07:00"
         },
         {
             "id": "https://chainuwat.github.io/workshops.html",

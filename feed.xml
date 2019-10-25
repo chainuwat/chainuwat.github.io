@@ -3,23 +3,28 @@
     <title>CHAINUWAT Design Studio</title>
     <link href="https://chainuwat.github.io/feed.xml" rel="self" />
     <link href="https://chainuwat.github.io" />
-    <updated>2019-10-25T15:15:47+07:00</updated>
+    <updated>2019-10-25T15:19:15+07:00</updated>
     <author>
         <name>Chainuwat Chuaykongtong</name>
     </author>
     <id>https://chainuwat.github.io</id>
 
     <entry>
-        <title>ABC Style Clinic X Yellong - Landing page</title>
+        <title>Fan meeting with Yellong - Landing page</title>
         <author>
             <name>Chainuwat Chuaykongtong</name>
         </author>
         <link href="https://chainuwat.github.io/abc-style-clinic-x-yellong-landing-page.html"/>
         <id>https://chainuwat.github.io/abc-style-clinic-x-yellong-landing-page.html</id>
 
-        <updated>2019-10-25T15:15:36+07:00</updated>
+        <updated>2019-10-25T15:18:46+07:00</updated>
             <summary></summary>
-        <content></content>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://chainuwat.github.io/media/posts/13/abc_x_yellong_mockup.jpg" alt="" />
+                <img class="post__image--center" src="https://chainuwat.github.io/media/posts/13/abc_x_yellong_mockup-2.jpg" alt="" width="1920" height="11781">
+            ]]>
+        </content>
     </entry>
     <entry>
         <title>Workshops</title>
