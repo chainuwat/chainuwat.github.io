@@ -1,15 +1,28 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "CHAINUWAT",
+    "title": "CHAINUWAT Design Studio",
     "description": "",
     "home_page_url": "https://chainuwat.github.io",
     "feed_url": "https://chainuwat.github.io/feed.json",
     "user_comment": "",
-    "icon": "https://chainuwat.github.io/media/website/WEBSITE-LOGO.png",
+    "icon": "https://chainuwat.github.io/media/website/header-logo.png",
     "author": {
         "name": "Chainuwat Chuaykongtong"
     },
     "items": [
+        {
+            "id": "https://chainuwat.github.io/abc-style-clinic-x-yellong-landing-page.html",
+            "url": "https://chainuwat.github.io/abc-style-clinic-x-yellong-landing-page.html",
+            "title": "ABC Style Clinic X Yellong - Landing page",
+            "image": "https://chainuwat.github.io/media/posts/13/abc_x_yellong_mockup.jpg",
+            "author": {
+                "name": "Chainuwat Chuaykongtong"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-10-25T15:15:36+07:00",
+            "date_modified": "2019-10-25T15:15:36+07:00"
+        },
         {
             "id": "https://chainuwat.github.io/workshops.html",
             "url": "https://chainuwat.github.io/workshops.html",

@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>CHAINUWAT</title>
+    <title>CHAINUWAT Design Studio</title>
     <link href="https://chainuwat.github.io/feed.xml" rel="self" />
     <link href="https://chainuwat.github.io" />
-    <updated>2019-09-27T11:30:15+07:00</updated>
+    <updated>2019-10-25T15:15:47+07:00</updated>
     <author>
         <name>Chainuwat Chuaykongtong</name>
     </author>
     <id>https://chainuwat.github.io</id>
 
+    <entry>
+        <title>ABC Style Clinic X Yellong - Landing page</title>
+        <author>
+            <name>Chainuwat Chuaykongtong</name>
+        </author>
+        <link href="https://chainuwat.github.io/abc-style-clinic-x-yellong-landing-page.html"/>
+        <id>https://chainuwat.github.io/abc-style-clinic-x-yellong-landing-page.html</id>
+
+        <updated>2019-10-25T15:15:36+07:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
     <entry>
         <title>Workshops</title>
         <author>
