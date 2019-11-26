@@ -3,12 +3,44 @@
     <title>ชัยนุวัตร - ศิลปินสีน้ำ | Chainuwat - Thailand watercolor artist</title>
     <link href="https://chainuwat.github.io/feed.xml" rel="self" />
     <link href="https://chainuwat.github.io" />
-    <updated>2019-11-26T13:12:12+07:00</updated>
+    <updated>2019-11-26T13:21:31+07:00</updated>
     <author>
         <name>บุ๊ค ชัยนุวัตร</name>
     </author>
     <id>https://chainuwat.github.io</id>
 
+    <entry>
+        <title>เกี่ยวกับ</title>
+        <author>
+            <name>บุ๊ค ชัยนุวัตร</name>
+        </author>
+        <link href="https://chainuwat.github.io/ekiiywkab.html"/>
+        <id>https://chainuwat.github.io/ekiiywkab.html</id>
+
+        <updated>2019-11-26T13:20:10+07:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <p class="faso-user-p"><img class="post__image--left" src="https://chainuwat.github.io/media/posts/17/002.jpg" alt="" width="1080" height="1080"></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>วิดีโอสาธิตการเขียนสีน้ำ - ภูเขาและทิวทัศน์</title>
+        <author>
+            <name>บุ๊ค ชัยนุวัตร</name>
+        </author>
+        <link href="https://chainuwat.github.io/widiiosaathitkaarekhiiynsiinam-phuuekhaaaelathiwthasn.html"/>
+        <id>https://chainuwat.github.io/widiiosaathitkaarekhiiynsiinam-phuuekhaaaelathiwthasn.html</id>
+
+        <updated>2019-11-26T13:19:23+07:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <figure class="post__video"><iframe width="1200" height="673" src="https://www.youtube.com/embed/hANt3VpZc3Y" allowfullscreen="allowfullscreen"></iframe></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>ขั้นตอนการเขียนภาพสีน้ำ บรรยากาศยามเย็น</title>
         <author>
