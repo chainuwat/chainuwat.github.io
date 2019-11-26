@@ -3,7 +3,7 @@
     <title>ชัยนุวัตร - ศิลปินสีน้ำ | Chainuwat - Thailand watercolor artist</title>
     <link href="https://chainuwat.github.io/feed.xml" rel="self" />
     <link href="https://chainuwat.github.io" />
-    <updated>2019-11-26T16:15:27+07:00</updated>
+    <updated>2019-11-26T16:43:29+07:00</updated>
     <author>
         <name>บุ๊ค ชัยนุวัตร</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://chainuwat.github.io/about.html"/>
         <id>https://chainuwat.github.io/about.html</id>
 
-        <updated>2019-11-26T16:15:23+07:00</updated>
+        <updated>2019-11-26T16:30:58+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://chainuwat.github.io/media/posts/17/002.jpg" alt="" />
@@ -29,7 +29,7 @@
                     <img src="https://chainuwat.github.io/media/posts/17/002.jpg" alt="" />
                 <div class="col medium-6 small-12 large-6">
 <div class="col-inner">
-<h2 id="mcetoc_1dqjbmkcj0" class="align-center"><img class="post__image--left align-left" src="https://chainuwat.github.io/media/posts/17/002.jpg" width="222" height="222"></h2>
+<h2 id="mcetoc_1dqjbmkcj0" class="align-center"><img class="post__image--left align-left" src="https://chainuwat.github.io/media/posts/17/002.jpg" width="357" height="357"></h2>
 <h2 id="mcetoc_1dqjekvu61" class="gap-element clearfix align-left">สวัสดีครับ</h2>
 <h5 id="mcetoc_1dqjemuct3" class="gap-element clearfix align-left"><em>ผมชื่อ ชัยนุวัตร ช่วยคงทอง (บุ๊ค) </em></h5>
 <hr>
@@ -50,15 +50,15 @@
         <author>
             <name>บุ๊ค ชัยนุวัตร</name>
         </author>
-        <link href="https://chainuwat.github.io/widiiosaathitkaarekhiiynsiinam-phuuekhaaaelathiwthasn.html"/>
-        <id>https://chainuwat.github.io/widiiosaathitkaarekhiiynsiinam-phuuekhaaaelathiwthasn.html</id>
+        <link href="https://chainuwat.github.io/demo-mountain-landscape.html"/>
+        <id>https://chainuwat.github.io/demo-mountain-landscape.html</id>
 
-        <updated>2019-11-26T13:53:47+07:00</updated>
+        <updated>2019-11-26T16:43:26+07:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                <figure class="post__video"><video width="500" height="250" controls="controls">
-<source src="https://www.youtube.com/embed/hANt3VpZc3Y" /></video></figure>
+                    <img src="https://chainuwat.github.io/media/posts/16/thumbnail-04.jpg" alt="" />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hANt3VpZc3Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
             ]]>
         </content>
     </entry>
