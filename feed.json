@@ -27,14 +27,14 @@
             "id": "https://chainuwat.github.io/widiiosaathitkaarekhiiynsiinam-phuuekhaaaelathiwthasn.html",
             "url": "https://chainuwat.github.io/widiiosaathitkaarekhiiynsiinam-phuuekhaaaelathiwthasn.html",
             "title": "วิดีโอสาธิตการเขียนสีน้ำ - ภูเขาและทิวทัศน์",
-            "content_html": "<figure class=\"post__video\"><iframe width=\"1200\" height=\"673\" src=\"https://www.youtube.com/embed/hANt3VpZc3Y\" allowfullscreen=\"allowfullscreen\"></iframe></figure>",
+            "content_html": "<figure class=\"post__video\"><video width=\"500\" height=\"250\" controls=\"controls\">\n<source src=\"https://www.youtube.com/embed/hANt3VpZc3Y\" /></video></figure>",
             "author": {
                 "name": "บุ๊ค ชัยนุวัตร"
             },
             "tags": [
             ],
             "date_published": "2019-11-26T13:19:23+07:00",
-            "date_modified": "2019-11-26T13:19:23+07:00"
+            "date_modified": "2019-11-26T13:38:06+07:00"
         },
         {
             "id": "https://chainuwat.github.io/evening-scene-tutorial.html",
