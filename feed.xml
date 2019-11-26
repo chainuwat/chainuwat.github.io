@@ -3,7 +3,7 @@
     <title>ชัยนุวัตร - ศิลปินสีน้ำ | Chainuwat - Thailand watercolor artist</title>
     <link href="https://chainuwat.github.io/feed.xml" rel="self" />
     <link href="https://chainuwat.github.io" />
-    <updated>2019-11-26T13:08:03+07:00</updated>
+    <updated>2019-11-26T13:10:33+07:00</updated>
     <author>
         <name>บุ๊ค ชัยนุวัตร</name>
     </author>
@@ -150,37 +150,8 @@
         <link href="https://chainuwat.github.io/tidt.html"/>
         <id>https://chainuwat.github.io/tidt.html</id>
 
-        <updated>2019-08-28T11:38:56+07:00</updated>
+        <updated>2019-11-26T13:08:43+07:00</updated>
             <summary></summary>
         <content></content>
-    </entry>
-    <entry>
-        <title>วิดีโอ</title>
-        <author>
-            <name>บุ๊ค ชัยนุวัตร</name>
-        </author>
-        <link href="https://chainuwat.github.io/widiio.html"/>
-        <id>https://chainuwat.github.io/widiio.html</id>
-
-        <updated>2019-11-26T10:05:15+07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://chainuwat.github.io/media/posts/5/watercolor-795162_1920.jpg" alt="" />
-                     
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://chainuwat.github.io/media/posts/5/watercolor-795162_1920.jpg" alt="" />
-                <figure class="post__video"><iframe width="560" height="314" src="https://www.youtube.com/embed/hANt3VpZc3Y" allowfullscreen="allowfullscreen"></iframe>
-<figure class="post__video"><iframe width="560" height="314" src="https://www.youtube.com/embed/Eefcyynz8i0" allowfullscreen="allowfullscreen"></iframe>
-<figure class="post__video">
-<figure class="post__video"><iframe width="560" height="314" src="https://www.youtube.com/embed/StKZxRJmEGE" allowfullscreen="allowfullscreen"></iframe></figure>
-<iframe width="560" height="314" src="https://www.youtube.com/embed/Znj3lJXjSRI" allowfullscreen="allowfullscreen"></iframe></figure>
-</figure>
-</figure>
-<p> </p>
-            ]]>
-        </content>
     </entry>
 </feed>

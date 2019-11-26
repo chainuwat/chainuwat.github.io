@@ -77,22 +77,7 @@
             "tags": [
             ],
             "date_published": "2019-08-13T14:54:08+07:00",
-            "date_modified": "2019-08-28T11:38:56+07:00"
-        },
-        {
-            "id": "https://chainuwat.github.io/widiio.html",
-            "url": "https://chainuwat.github.io/widiio.html",
-            "title": "วิดีโอ",
-            "summary": " ",
-            "content_html": "<figure class=\"post__video\"><iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/hANt3VpZc3Y\" allowfullscreen=\"allowfullscreen\"></iframe>\n<figure class=\"post__video\"><iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/Eefcyynz8i0\" allowfullscreen=\"allowfullscreen\"></iframe>\n<figure class=\"post__video\">\n<figure class=\"post__video\"><iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/StKZxRJmEGE\" allowfullscreen=\"allowfullscreen\"></iframe></figure>\n<iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/Znj3lJXjSRI\" allowfullscreen=\"allowfullscreen\"></iframe></figure>\n</figure>\n</figure>\n<p> </p>",
-            "image": "https://chainuwat.github.io/media/posts/5/watercolor-795162_1920.jpg",
-            "author": {
-                "name": "บุ๊ค ชัยนุวัตร"
-            },
-            "tags": [
-            ],
-            "date_published": "2019-03-29T17:48:14+07:00",
-            "date_modified": "2019-11-26T10:05:15+07:00"
+            "date_modified": "2019-11-26T13:08:43+07:00"
         }
     ]
 }
