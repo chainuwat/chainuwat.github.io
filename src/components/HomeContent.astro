@@ -1,0 +1,18 @@
+---
+import {home} from '../i18n/home.js';
+import ExecutiveHero from './home/ExecutiveHero.astro';
+import ProfessionalIntro from './home/ProfessionalIntro.astro';
+import ExpertiseGrid from './home/ExpertiseGrid.astro';
+import FeaturePanel from './home/FeaturePanel.astro';
+import ContactCTA from './home/ContactCTA.astro';
+interface Props { lang: 'th' | 'en' }
+const {lang}=Astro.props;
+const t=home[lang];
+---
+<ExecutiveHero t={t} lang={lang}/>
+<ProfessionalIntro t={t} lang={lang}/>
+<ExpertiseGrid t={t}/>
+<FeaturePanel label={t.workLabel} title={t.workTitle} description={t.workDesc} pending={t.workPending} href={`/${lang}/work/`} linkText={t.workLink}/>
+<FeaturePanel label={t.insightsLabel} title={t.insightsTitle} description={t.insightsDesc} pending={t.insightsPending} href={`/${lang}/insights/`} linkText={t.insightsLink}/>
+<FeaturePanel label={t.innovationLabel} title={t.innovationTitle} description={t.innovationDesc} pending={lang==='th'?'รายละเอียดและทรัพยากรจะทยอยเผยแพร่':'More experiments and resources will be published over time.'} href={`/${lang}/work/`} linkText={t.workLink}/>
+<ContactCTA t={t} lang={lang}/>

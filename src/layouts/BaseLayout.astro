@@ -1,0 +1,49 @@
+---
+import '../styles/global.css';
+import { ui, navItems } from '../i18n/ui.js';
+interface Props { lang?: 'th' | 'en'; title?: string; description?: string }
+const { lang='en', title, description } = Astro.props;
+const t = ui[lang];
+const base = import.meta.env.BASE_URL;
+const href = (language: 'th' | 'en', path='') => `${base}${language}/${path}`.replace(/\/+/g,'/');
+const pathname = Astro.url.pathname;
+const pathWithinLocale = pathname.replace(base,'').replace(/^(th|en)\/?/,'');
+const alternate = lang === 'th' ? 'en' : 'th';
+const pageTitle = title ?? t.title;
+const pageDescription = description ?? t.intro;
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <!-- Google Analytics 4: Chainuwat Jekyll property, reused for the Astro site -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-TB8PRT63YS"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-TB8PRT63YS');
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={pageDescription} />
+    <title>{pageTitle}</title>
+    <link rel="canonical" href={Astro.url.href} />
+    <link rel="alternate" hreflang={lang} href={Astro.url.href} />
+    <link rel="alternate" hreflang={alternate} href={new URL(href(alternate,pathWithinLocale), Astro.site)} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:url" content={Astro.url.href} />
+    <meta property="og:locale" content={lang === 'th' ? 'th_TH' : 'en_US'} />
+  </head>
+  <body>
+    <a class="skip" href="#main">{lang === 'th' ? 'ข้ามไปยังเนื้อหา' : 'Skip to content'}</a>
+    <header class="header"><div class="container header-inner">
+      <a class="brand" href={href(lang)}>Chainuwat.</a>
+      <nav class="nav" aria-label="Main navigation">{navItems.map(([key,path]) => <a href={href(lang,path)}>{t[key as keyof typeof t]}</a>)}</nav>
+      <div class="lang" aria-label="Language"><a href={href(alternate,pathWithinLocale)} hreflang={alternate}>{alternate.toUpperCase()}</a></div>
+    </div></header>
+    <main id="main"><slot /></main>
+    <footer class="footer"><div class="container">© {new Date().getFullYear()} Chainuwat · Turning Ideas into Impact.</div></footer>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+---
+import { home } from '../../i18n/home.js';
+interface Props { t: typeof home.en; lang?: 'th' | 'en' }
+import EditorialSection from './EditorialSection.astro';
+const {t}=Astro.props;
+---
+<EditorialSection label={t.expertiseLabel} title={t.expertiseTitle} description={t.expertiseDesc} id="expertise"><div class="expertise-grid">{t.pillars.map(([title,desc],i)=><article class="expertise-card"><span class="number">0{i+1} / 04</span><h3>{title}</h3><p>{desc}</p><span class="arrow" aria-hidden="true">↗</span></article>)}</div></EditorialSection>
+<style>.expertise-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--border);border:1px solid var(--border);margin-top:3rem}.expertise-card{position:relative;background:var(--paper);padding:clamp(1.5rem,3vw,3rem);min-height:260px}.number{font-size:.75rem;letter-spacing:.1em;color:var(--blue);font-weight:800}.expertise-card h3{font-size:clamp(1.25rem,2vw,1.7rem);line-height:1.35;margin:2rem 0 .7rem}.expertise-card p{color:var(--slate);max-width:330px;margin:0}.arrow{position:absolute;right:2rem;top:1.5rem;font-size:1.2rem;color:var(--blue)}@media(max-width:600px){.expertise-grid{grid-template-columns:1fr}.expertise-card{min-height:215px}}</style>

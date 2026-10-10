@@ -1,0 +1,6 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import HomeContent from '../../components/HomeContent.astro';
+const lang='th';
+---
+<BaseLayout lang={lang} description={lang === 'th' ? 'เชื่อมกลยุทธ์ ผู้คน และการลงมือทำ เพื่อสร้างผลลัพธ์ที่มีความหมาย' : 'Connecting strategy, people, and execution to create meaningful outcomes.'}><HomeContent lang={lang} /></BaseLayout>

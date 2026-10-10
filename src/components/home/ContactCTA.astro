@@ -1,0 +1,7 @@
+---
+import { home } from '../../i18n/home.js';
+interface Props { t: typeof home.en; lang?: 'th' | 'en' }
+const {t,lang}=Astro.props;
+---
+<section class="contact"><div class="container"><p class="eyebrow">{t.contactLabel}</p><div class="contact-grid"><div><h2>{t.contactTitle}</h2><p>{t.contactDesc}</p></div><a class="button contact-button" href={`/${lang}/contact/`}>{t.connectLink} ↗</a></div></div></section>
+<style>.contact{background:var(--navy);color:white;padding-block:clamp(4rem,8vw,7rem)}.contact .eyebrow{color:#a9c8de}.contact-grid{display:flex;align-items:end;justify-content:space-between;gap:2rem}.contact h2{font-size:clamp(2.3rem,5vw,4.7rem);line-height:1.14;letter-spacing:-.05em;max-width:740px;margin:.6rem 0 1rem}.contact p{color:#d3e0ea;max-width:550px}.contact-button{color:var(--navy);background:white;border-color:white;white-space:nowrap}@media(max-width:767px){.contact-grid{display:block}.contact-button{margin-top:1.5rem}}</style>
