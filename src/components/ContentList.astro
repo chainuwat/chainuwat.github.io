@@ -1,0 +1,16 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { ui } from '../i18n/ui.js';
+interface Props {lang:'th'|'en'; section:'insights'|'work'}
+const {lang,section}=Astro.props;
+const entries=(await getCollection(section,e=>!e.data.draft && e.data.lang===lang)).sort((a,b)=>Number(b.data.date??b.data.publishedAt)-Number(a.data.date??a.data.publishedAt));
+---
+<BaseLayout lang={lang} title={`${ui[lang][section]} | Chainuwat`}>
+<section class="container content-list"><p class="eyebrow">Chainuwat</p><h1>{ui[lang][section]}</h1>
+<div class="cards">{entries.map(entry=><a class="card" href={`/${lang}/${section}/${entry.id}/`}>
+{entry.data.image && <img src={entry.data.image} alt="" loading="lazy" width="768" height="512"/>}
+<div><time>{(entry.data.date??entry.data.publishedAt)!.toLocaleDateString(lang==='th'?'th-TH':'en-GB',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'})}</time><h2>{entry.data.title}</h2><p>{entry.data.description}</p></div></a>)}</div>
+{entries.length===0 && <p>{lang==='th'?'ยังไม่มีเนื้อหาที่เผยแพร่':'No published entries yet.'}</p>}
+</section></BaseLayout>
+<style>.content-list{padding-block:4rem;min-height:60vh}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:2rem}.card{background:white;border:1px solid var(--border);text-decoration:none;overflow:hidden}.card img{width:100%;height:230px;object-fit:cover}.card div{padding:1.5rem}.card h2{line-height:1.4}.card time,.card p{color:var(--slate)}.card:hover{border-color:var(--blue)}</style>

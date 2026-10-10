@@ -1,8 +1,4 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import { ui } from '../../i18n/ui.js';
-const lang='th';
-const t=ui[lang];
-const section='work';
+import ContentList from '../../components/ContentList.astro';
 ---
-<BaseLayout lang={lang} title={`${t[section]} | Chainuwat`}><div class="container"><section class="hero"><p class="eyebrow">Chainuwat</p><h1>{t[section]}</h1><p class="lead">{t.coming}</p></section></div></BaseLayout>
+<ContentList lang="th" section="work" />

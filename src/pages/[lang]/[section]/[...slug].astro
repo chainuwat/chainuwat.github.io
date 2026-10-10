@@ -1,0 +1,23 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+export async function getStaticPaths() {
+ const paths=[];
+ for (const section of ['insights','work'] as const) {
+  const entries=await getCollection(section,e=>!e.data.draft);
+  for(const entry of entries){
+   const translated=entry.data.translationKey ? entries.find(e=>e.data.lang!==entry.data.lang && e.data.translationKey===entry.data.translationKey) : undefined;
+   paths.push({params:{lang:entry.data.lang,section,slug:entry.id},props:{entry,section,alternatePath:translated ? `/${translated.data.lang}/${section}/${translated.id}/` : `/${entry.data.lang==='th'?'en':'th'}/${section}/`,hasTranslation:!!translated}});
+  }
+ }
+ return paths;
+}
+const {entry,section,alternatePath,hasTranslation}=Astro.props;
+const {Content}=await render(entry);
+const lang=entry.data.lang;
+---
+<BaseLayout lang={lang} title={`${entry.data.title} | Chainuwat`} description={entry.data.description} alternatePath={alternatePath} hasTranslation={hasTranslation}>
+<article class="container reading"><a href={`/${lang}/${section}/`}>← {lang==='th'?'กลับไปหน้ารวม':'Back to all entries'}</a><h1>{entry.data.title}</h1><time>{(entry.data.date??entry.data.publishedAt)!.toLocaleDateString(lang==='th'?'th-TH':'en-GB',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'})}</time>
+{entry.data.image && <img class="cover" src={entry.data.image} alt={entry.data.title} width="1536" height="1024"/>}
+<div class="prose"><Content /></div></article></BaseLayout>
+<style>.reading{max-width:850px;padding-block:3rem 5rem}.reading h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.3}.reading time{color:var(--slate)}.cover{width:100%;height:auto;margin-block:2rem}.prose :global(img){max-width:100%;height:auto}.prose :global(pre){overflow:auto;padding:1rem;background:var(--muted)}.prose :global(table){display:block;overflow:auto;border-collapse:collapse}.prose :global(td),.prose :global(th){border:1px solid var(--border);padding:.5rem}.prose :global(blockquote){border-left:3px solid var(--blue);margin-inline:0;padding-left:1.5rem}</style>
